@@ -22,3 +22,4 @@ max-line-length=80
 max-nested-blocks=2
 [DESIGN]
 max-attributes=7
+max-statements=15

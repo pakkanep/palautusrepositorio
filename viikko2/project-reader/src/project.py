@@ -7,6 +7,7 @@ class Project:
         self.license = licenses
         self.authors = authors
 
+
     def return_info(self):
         infolist = [
             self.name,
@@ -16,7 +17,6 @@ class Project:
             self.license,
             self.authors
         ]
-
         return infolist
 
     def _stringify_dependencies(self, lista):
