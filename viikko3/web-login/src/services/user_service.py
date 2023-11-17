@@ -44,7 +44,7 @@ class UserService:
             raise UserInputError("Username and password are required")
 
         if not re.match(r"^(?=.*[a-z])(?=.*\d).{8,}$", password):
-            raise UserInputError("Password has to be atleast 8 characters long and consist atleast 1 number")
+            raise UserInputError("Password has to be atleast 8 characters long and consist of letters and atleast 1 number")
         
         if not re.match(r"^[a-z]{3,}$", username):
             raise UserInputError("Username has to consist of 3 characters minimum")
