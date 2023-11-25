@@ -1,0 +1,5 @@
+Retrospektiivi on yleiskatsaus tai kokous, jonka tavoittena on käydä läpi iteraation (jakson) aikana tapahtuneet onnistumiset ja epäonnistumiset. Kokoukset ovat oiva tapa tuoda esiin omia tuntemuksia työskentelytavoista neutraalisti. Erilaisia yksinkertaisia tekniikoita kokouksien pitämiseen on keksitty, jotta kokouksista saataisiin kaikki hyödyt irti.
+
+Yksi näistä tekniikoista on “Start, Stop, Continue, More of, Less of Wheel”,  jossa kehitystiimi arvioi mitä uutta voisi kokeilla, mitkä asiat kannattaisi lopettaa, toimivat asiat joita halutaan jatkaa sekä mitä kannattaisi tehdä enemmän tai vähemmän. Nämä kategoriat jaetaan ympyrään omiin sektoreihin, johon sitten voidaan merkitä mitä haluttaisiin vaikkapa jatkaa.
+
+Toisessa tekniikassa “Mad, Sad, Glad”,  tiimiläiset voivat jakaa tuntemuksiaan kolmessa kategoiriassa iloinen, surullinen sekä vihainen, kuten nimi kertoo. Tämän avulla voidaan hyvin tunnistaa minkälaisia asioita kannattaisi muuttaa. Esimerkiksi jos useampaa tiimiläistä surettaa sama asia, sitä voisi olla hyödyllistä muuttaa.
