@@ -5,10 +5,10 @@ class TennisGame:
         self.player1_score = 0
         self.player2_score = 0
         self.score_dict = {
-            0: "0", 
-            1: "15", 
-            2: "30",
-            3: "40"
+            0: "Love", 
+            1: "Fifteen", 
+            2: "Thirty",
+            3: "Forty"
         } 
 
     def won_point(self, player_name):
@@ -34,13 +34,13 @@ class TennisGame:
     def get_equal_score(self):
         score = ""
         if self.player1_score == 0:
-            score = "0-0"
+            score = "Love-All"
         elif self.player1_score == 1:
-            score = "15-15"
+            score = "Fifteen-All"
         elif self.player1_score == 2:
-            score = "30-30"
+            score = "Thirty-All"
         else:
-            score = "40-40"
+            score = "Deuce"
 
         return score
     

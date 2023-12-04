@@ -3,30 +3,30 @@ import unittest
 from tennis_game import TennisGame
 
 test_cases = [
-    (0, 0, "0-0"),
-    (1, 1, "15-15"),
-    (2, 2, "30-30"),
-    (3, 3, "40-40"),
-    (4, 4, "40-40"),
+    (0, 0, "Love-All"),
+    (1, 1, "Fifteen-All"),
+    (2, 2, "Thirty-All"),
+    (3, 3, "Deuce"),
+    (4, 4, "Deuce"),
 
-    (1, 0, "15-0"),
-    (0, 1, "0-15"),
-    (2, 0, "30-0"),
-    (0, 2, "0-30"),
-    (3, 0, "40-0"),
-    (0, 3, "0-40"),
+    (1, 0, "Fifteen-Love"),
+    (0, 1, "Love-Fifteen"),
+    (2, 0, "Thirty-Love"),
+    (0, 2, "Love-Thirty"),
+    (3, 0, "Forty-Love"),
+    (0, 3, "Love-Forty"),
     (4, 0, "Win for player1"),
     (0, 4, "Win for player2"),
 
-    (2, 1, "30-15"),
-    (1, 2, "15-30"),
-    (3, 1, "40-15"),
-    (1, 3, "15-40"),
+    (2, 1, "Thirty-Fifteen"),
+    (1, 2, "Fifteen-Thirty"),
+    (3, 1, "Forty-Fifteen"),
+    (1, 3, "Fifteen-Forty"),
     (4, 1, "Win for player1"),
     (1, 4, "Win for player2"),
 
-    (3, 2, "40-30"),
-    (2, 3, "30-40"),
+    (3, 2, "Forty-Thirty"),
+    (2, 3, "Thirty-Forty"),
     (4, 2, "Win for player1"),
     (2, 4, "Win for player2"),
 
@@ -42,7 +42,6 @@ test_cases = [
     (16, 14, "Win for player1"),
     (14, 16, "Win for player2"),
 ]
-
 
 
 def play_game(p1_points, p2_points):
